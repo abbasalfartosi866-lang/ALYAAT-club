@@ -1,0 +1,11 @@
+services:
+  club-app:
+    build: .
+    container_name: alyat-police-club
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
