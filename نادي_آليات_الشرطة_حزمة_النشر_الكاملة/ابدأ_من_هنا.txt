@@ -1,0 +1,16 @@
+حزمة النشر الكاملة — نادي آليات الشرطة الرياضي
+
+هذه النسخة تجمع الملفات التي كانت ناقصة من مستودع GitHub السابق:
+- backend/main.py
+- frontend/index.html + الشعار والأيقونات
+- requirements.txt
+- Dockerfile
+- Procfile
+- android/
+
+أمر التشغيل على أي استضافة Python تدعم FastAPI:
+python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+
+مهم:
+بعد الحصول على رابط HTTPS النهائي، يوضع في android/gradle.properties بدل:
+https://YOUR-DOMAIN.example/

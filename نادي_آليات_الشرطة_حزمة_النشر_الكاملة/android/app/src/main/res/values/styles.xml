@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.AlyatPolice" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#4A165F</item>
+        <item name="android:navigationBarColor">#4A165F</item>
+    </style>
+</resources>
